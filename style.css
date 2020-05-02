@@ -1,0 +1,77 @@
+body{
+    margin: 0 auto;
+}
+.container{
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    color: cadetblue;
+}
+.upper, .lower{
+    display: flex;
+    justify-content: center;
+    margin:10px  0px 0px 0px;
+    
+}
+.head{
+    width: 220px;
+    height: 130px;
+    background-color: cadetblue;
+    border-radius: 220px 220px 0px 0px;
+    transition: all 0.7s;
+
+}
+.head:hover{
+    transition: all 0.7s;
+     transform: rotate(360deg);
+}
+.body{
+    width: 220px;
+    height: 220px;
+    background-color: cadetblue;
+    border-radius: 0px 0px 30px 30px;
+}
+.left-eye,.right-eye{
+    width: 20px;
+    height: 20px;
+    background-color:#fff;
+    border-radius: 20px;
+    margin: 30px;
+}
+.eyes{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top:50px;
+   
+}
+.right-hand,.left-hand {
+    width: 40px;
+    height: 140px;
+    background-color: cadetblue;
+    margin: 0px 10px;
+    border-radius: 40px;
+}
+
+.right-hand:hover {
+	transition:all 0.4s;
+	transform: rotate(40deg);
+}
+.legs{
+    display: flex;
+    justify-content: center;
+}
+.right-leg,.left-leg{
+    width: 40px;
+    height: 100px;
+    background-color: cadetblue;
+    margin: 0px 20px;
+    border-radius:0px 0px 40px 40px ;
+    
+
+}
+.right-leg:hover{
+    
+    transform: skewX(-20deg);
+}
